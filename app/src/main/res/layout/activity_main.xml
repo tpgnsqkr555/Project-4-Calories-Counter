@@ -16,8 +16,7 @@
             android:layout_width="234dp"
             android:layout_height="172dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/food_image_description"
             app:srcCompat="@drawable/il_fullxfull_726795730_km9q" />
 
         <TextView
@@ -25,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Calories Counter"
+            android:text="@string/app_title"
             android:textSize="24sp"
             android:layout_marginTop="16dp" />
 
@@ -34,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Date: " />
+            android:text="@string/date_label" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,19 +45,19 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Meals" />
+                android:text="@string/meals_label" />
 
             <TextView
                 android:id="@+id/mealsCalories"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0" />
+                android:text="@string/zero" />
 
             <Button
                 android:id="@+id/updateMealsButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Update" />
+                android:text="@string/update_button" />
         </LinearLayout>
 
         <LinearLayout
@@ -71,19 +70,19 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Water" />
+                android:text="@string/water_label" />
 
             <TextView
                 android:id="@+id/waterCups"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0 cups" />
+                android:text="@string/zero_cups" />
 
             <Button
                 android:id="@+id/updateWaterButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Update" />
+                android:text="@string/update_button" />
         </LinearLayout>
 
         <LinearLayout
@@ -96,19 +95,19 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Snacks" />
+                android:text="@string/snacks_label" />
 
             <TextView
                 android:id="@+id/snacksCalories"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0" />
+                android:text="@string/zero" />
 
             <Button
                 android:id="@+id/updateSnacksButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Update" />
+                android:text="@string/update_button" />
         </LinearLayout>
 
         <TextView
@@ -117,7 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="24dp"
-            android:text="Total: 0"
+            android:text="@string/total_calories"
             android:textSize="18sp" />
 
     </LinearLayout>
