@@ -6,8 +6,12 @@
     <string name="meals_label">Meals</string>
     <string name="water_label">Water</string>
     <string name="snacks_label">Snacks</string>
-    <string name="update_button">Update</string>
+
     <string name="zero">0</string>
     <string name="zero_cups">0 cups</string>
     <string name="total_calories">Total: 0</string>
+    <string name="app_name">Calorie Tracker</string>
+  
+    <string name="minus_symbol">-</string>
+    <string name="plus_symbol">+</string>
 </resources>
