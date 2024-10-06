@@ -1,6 +1,7 @@
 package com.example.calorietracker
 
 import android.os.Bundle
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -20,5 +21,13 @@ class AdjustmentView : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val type = intent.getStringExtra("TYPE")
+        val displayType: TextView = findViewById(R.id.type)
+        displayType.setText(type)
+
+
+        val count = intent.getStringExtra("VALUE")
+        val displayCount: TextView = findViewById(R.id.count)
+        displayCount.setText(count)
     }
 }
