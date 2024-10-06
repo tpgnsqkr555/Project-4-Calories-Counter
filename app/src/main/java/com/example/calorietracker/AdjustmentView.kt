@@ -7,7 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 /**
- * Description: This View stores the
+ * Description: This View stores the adjustment buttons and data
  */
 
 class AdjustmentView : AppCompatActivity() {
