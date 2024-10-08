@@ -2,7 +2,6 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -13,28 +12,26 @@
         android:padding="16dp">
 
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="234dp"
-            android:layout_height="172dp"
-            android:layout_gravity="center_horizontal"
-            android:contentDescription="@string/food_image_description"
-            app:srcCompat="@drawable/il_fullxfull_726795730_km9q" />
-
-        <TextView
-            android:id="@+id/titleText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/app_title"
-            android:textSize="24sp"
-            android:layout_marginTop="16dp" />
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/il_fullxfull_726795730_km9q"
+            android:contentDescription="@string/app_image_description"/>
 
         <TextView
             android:id="@+id/dateText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/date_label" />
+            android:text="@string/date_label_format"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/changeDateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_date"
+            android:layout_marginTop="8dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -77,7 +74,7 @@
                 android:id="@+id/waterCups"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/zero_cups" />
+                android:text="@string/zero" />
 
             <Button
                 android:id="@+id/updateWaterButton"
@@ -117,7 +114,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="24dp"
-            android:text="@string/total_calories"
+            android:text="@string/total_calories_format"
             android:textSize="18sp" />
 
     </LinearLayout>

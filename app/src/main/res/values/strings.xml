@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Calorie Tracker</string>
     <string name="app_title">Calories Counter</string>
     <string name="food_image_description">Food illustration for calorie counting</string>
-    <string name="date_label">Date: </string>
+    <string name="date_label_format">Date: %s</string>
     <string name="meals_label">Meals</string>
     <string name="water_label">Water</string>
     <string name="snacks_label">Snacks</string>
     <string name="update_button">Update</string>
     <string name="zero">0</string>
-    <string name="zero_cups">0 cups</string>
-    <string name="total_calories">Total: 0</string>
-    <string name="app_name">Calorie Tracker</string>
-
+    <string name="water_cups_format">%d cups</string>
+    <string name="total_calories_format">Total: %d calories</string>
     <string name="minus_symbol">-</string>
     <string name="plus_symbol">+</string>
+    <string name="app_image_description">Healthy food image</string>
+    <string name="change_date">Change Date</string>
+    <string name="decrease_water">- 1 cup</string>
+    <string name="increase_water">+ 1 cup</string>
+    <string name="decrease_calories">- 10 cal</string>
+    <string name="increase_calories">+ 10 cal</string>
 </resources>
