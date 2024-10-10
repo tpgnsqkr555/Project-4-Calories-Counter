@@ -10,4 +10,7 @@
     <string name="zero">0</string>
     <string name="zero_cups">0 cups</string>
     <string name="total_calories">Total: 0</string>
+    <string name="increment">+</string>
+    <string name="decrement">-</string>
+    <string name="update">Update</string>
 </resources>
